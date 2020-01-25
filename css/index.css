@@ -193,31 +193,38 @@ header nav a{
 
 button{
     border: 1px solid black;
+    margin-top: 10px;
+    align-self:left;
 }
 .top-content .headliner_about {
     width: 100%;
     padding: 20px 1%;
     padding-bottom: 20px;
 }
-.middle4{
+.middle_break {
+    margin-bottom: 20px;
+}
+.middle_break .middle4{
     display: flex;
     margin: 0 2% 20px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
+    align-items: center;
+    padding: 20px 2%;
 }
 
 .middle4 .text-container{
     border-bottom: 1px dotted black;
-    width: 40%;
+    width: 30%;
     margin: 2%;
     padding: 20px 2%;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    align-self: center;
 }
 .bottom-content_about{
     display: flex;
@@ -227,7 +234,9 @@ button{
     width: 100%;
 }
 .middle4 .text-container img{
-    padding-bottom: 5px;
-    padding-right: 5px;
+    padding: 10px;
     margin: 2%;
+}
+.middle4 .text-container p{
+
 }
