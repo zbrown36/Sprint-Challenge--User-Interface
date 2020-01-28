@@ -218,7 +218,7 @@ button{
 
 .middle4 .text-container{
     border-bottom: 1px dotted black;
-    width: 30%;
+    width: 46%;
     margin: 2%;
     padding: 10px 2%;
     padding-bottom: 20px;
@@ -227,6 +227,7 @@ button{
     align-items: center;
     justify-content: space-between;
     align-self: left;
+    list-style: square;
 }
 .bottom-content_about{
     display: flex;
@@ -238,5 +239,19 @@ button{
 .middle4 .text-container img{
     padding: 20px 20px 20px 0;
     margin: 2%;
-    width: 200%;
+    width: 100%;
+}
+/* start of the products.html*/
+
+.page_decor {
+    background: lightgray;
+    border:10px solid lightseagreen;
+}
+.product_pic {
+    display: flex;
+    flex-flow: wrap;
+    align-self: center;
+}
+.middle_break ul{
+    list-style: square;
 }
