@@ -81,7 +81,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 20px 1%;
     padding-bottom: 20px;  
 }
 
@@ -116,6 +116,7 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    width: 100%;
 }
 
 .bottom-content .text-container {
@@ -139,8 +140,118 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+#box1 {
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background:cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+}
+
+/* start for about page*/
+
+button{
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-top: 10px;
+    align-self:left;
+}
+.top-content .headliner_about {
+    width: 100%;
+    padding: 20px 1%;
+    padding-bottom: 20px;
+}
+.middle_break {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.middle_break .middle4{
+    display: flex;
+    margin: 0 2% 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px 2%;
+}
+
+.middle4 .text-container{
+    border-bottom: 1px dotted black;
+    width: 46%;
+    margin: 2%;
+    padding: 10px 2%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-self: left;
+    list-style: square;
+}
+.bottom-content_about{
+    display: flex;
+    margin: 0 2% 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+.middle4 .text-container img{
+    padding: 20px 20px 20px 0;
+    margin: 2%;
+    width: 100%;
+}
+/* start of the products.html*/
+
+.page_decor {
+    background: lightgray;
+    border:10px solid lightseagreen;
+}
+.product_pic {
+    display: flex;
+    flex-flow: wrap;
+    align-self: center;
+}
+.middle_break ul{
+    list-style: square;
 }
